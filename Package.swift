@@ -20,11 +20,19 @@ let package = Package(
 
     ],
     dependencies: [
+        .package(name: "Bolts", url: "https://github.com/Globalsport/Bolts-ObjC", .branch("master"))
+//        .package(name: "Bolts",
+//                 url: "https://github.com/drdaz/Bolts-ObjC",
+//                 .revision("df0c47add16f6cb7e81fd28aa59518c607a9dd4e"))
+//            .package(name: "Bolts", path: "/Users/drdaz/Documents/Development/Others/Bolts-ObjC")
     ],
     targets: [
         .target(
             name: "Parse",
-            dependencies: [.target(name:"Bolt")],
-            exclude: ["Info.plist"]),
+            dependencies: [.product(name: "Bolts", package: "Bolts")],
+            path: "Parse/Source",
+            exclude: ["Info.plist"],
+            publicHeadersPath: "Public"
+        )
     ]
 )
