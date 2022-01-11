@@ -20,27 +20,27 @@
 
 #if SWIFT_PACKAGE
 
-#import "BFAppLink.h"
-#import "BFAppLinkNavigation.h"
-#import "BFAppLinkResolving.h"
-#import "BFAppLinkReturnToRefererController.h"
-#import "BFAppLinkReturnToRefererView.h"
-#import "BFAppLinkTarget.h"
-#import "BFMeasurementEvent.h"
-#import "BFURL.h"
-#import "BFWebViewAppLinkResolver.h"
+#import "../Bolts-iOS/BFAppLink.h"
+#import "../Bolts-iOS/BFAppLinkNavigation.h"
+#import "../Bolts-iOS/BFAppLinkResolving.h"
+#import "../Bolts-iOS/BFAppLinkReturnToRefererController.h"
+#import "../Bolts-iOS/BFAppLinkReturnToRefererView.h"
+#import "../Bolts-iOS/BFAppLinkTarget.h"
+#import "../Bolts-iOS/BFMeasurementEvent.h"
+#import "../Bolts-iOS/BFURL.h"
+#import "../Bolts-iOS/BFWebViewAppLinkResolver.h"
 
 #else
 
-#import <BFAppLink.h>
-#import <BFAppLinkNavigation.h>
-#import <BFAppLinkResolving.h>
-#import <BFAppLinkReturnToRefererController.h>
-#import <BFAppLinkReturnToRefererView.h>
-#import <BFAppLinkTarget.h>
-#import <BFMeasurementEvent.h>
-#import <BFURL.h>
-#import <BFWebViewAppLinkResolver.h>
+#import <Bolts/BFAppLink.h>
+#import <Bolts/BFAppLinkNavigation.h>
+#import <Bolts/BFAppLinkResolving.h>
+#import <Bolts/BFAppLinkReturnToRefererController.h>
+#import <Bolts/BFAppLinkReturnToRefererView.h>
+#import <Bolts/BFAppLinkTarget.h>
+#import <Bolts/BFMeasurementEvent.h>
+#import <Bolts/BFURL.h>
+#import <Bolts/BFWebViewAppLinkResolver.h>
 
 #endif
 
