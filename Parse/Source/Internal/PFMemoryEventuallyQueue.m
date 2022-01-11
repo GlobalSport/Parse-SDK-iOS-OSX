@@ -11,7 +11,7 @@
 #import "PFEventuallyQueue_Private.h"
 
 
-#import <../../Bolts/BFTask.h>
+#import <../Bolts/BFTask.h>
 #import <../../Bolts/BFExecutor.h>
 
 

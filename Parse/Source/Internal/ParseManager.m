@@ -10,7 +10,7 @@
 #import "ParseManager.h"
 
 
-#import <../../Bolts/BFExecutor.h>
+#import <../Bolts/BFExecutor.h>
 
 
 #import "BFTask+Private.h"
