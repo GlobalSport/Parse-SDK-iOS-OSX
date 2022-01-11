@@ -10,7 +10,7 @@
 #import "PFTaskQueue.h"
 
 
-#import <../../../Bolts/BFTask.h>
+#import <../../Bolts/BFTask.h>
 
 
 @interface PFTaskQueue ()

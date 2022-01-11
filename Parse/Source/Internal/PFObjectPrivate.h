@@ -12,7 +12,7 @@
 #import "PFObject.h"
 
 
-#import <../../../Bolts/BFTask.h>
+#import <../../Bolts/BFTask.h>
 
 
 #import "PFDecoder.h"

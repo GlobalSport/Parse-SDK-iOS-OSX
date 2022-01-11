@@ -8,8 +8,8 @@
  */
 
 #import "ParseModule.h"
-#import <../../../Bolts/BFTask.h>
-#import <../../../Bolts/BFTaskCompletionSource.h>
+#import <../../Bolts/BFTask.h>
+#import <../../Bolts/BFTaskCompletionSource.h>
 NS_ASSUME_NONNULL_BEGIN
 
 ///--------------------------------------

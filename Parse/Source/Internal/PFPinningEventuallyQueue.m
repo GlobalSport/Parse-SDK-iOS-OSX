@@ -10,8 +10,8 @@
 #import "PFPinningEventuallyQueue.h"
 
 
-#import <../../../Bolts/BFExecutor.h>
-#import <../../../Bolts/BFTaskCompletionSource.h>
+#import <../../Bolts/BFExecutor.h>
+#import <../../Bolts/BFTaskCompletionSource.h>
 
 
 #import "BFTask+Private.h"
