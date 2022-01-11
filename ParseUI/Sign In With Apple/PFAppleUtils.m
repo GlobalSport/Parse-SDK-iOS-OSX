@@ -9,7 +9,7 @@
 #import "PFAppleUtils.h"
 #import "PFAppleAuthenticationProvider.h"
 #import <AuthenticationServices/AuthenticationServices.h>
-#import <Bolts/Bolts.h>
+#import <../../../Bolts/Bolts.h>
 
 NSString *const PFAppleUserAuthenticationType = @"apple";
 NSString *const PFAppleAuthUserKey = @"user";

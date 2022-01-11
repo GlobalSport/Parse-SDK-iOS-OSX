@@ -11,8 +11,8 @@
 #import "PFEventuallyQueue_Private.h"
 
 
-#import <Bolts/BFTask.h>
-#import <Bolts/BFExecutor.h>
+#import <../../../Bolts/BFTask.h>
+#import <../../../Bolts/BFExecutor.h>
 
 
 @interface PFMemoryEventuallyQueue () <PFEventuallyQueueSubclass> {

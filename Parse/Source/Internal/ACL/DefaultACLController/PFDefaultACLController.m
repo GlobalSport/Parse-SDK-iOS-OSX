@@ -8,7 +8,7 @@
  */
 
 #import "PFDefaultACLController.h"
-#import <Bolts/BFTask.h>
+#import <../../../Bolts/BFTask.h>
 
 
 #import "../PFACLPrivate.h"

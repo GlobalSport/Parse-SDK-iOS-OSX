@@ -10,7 +10,7 @@
 #import "PFCachedQueryController.h"
 
 
-#import <Bolts/BFTask.h>
+#import <../../../Bolts/BFTask.h>
 
 
 #import "../../PFAssert.h"

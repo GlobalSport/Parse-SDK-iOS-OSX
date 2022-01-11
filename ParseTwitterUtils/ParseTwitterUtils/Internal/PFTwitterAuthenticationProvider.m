@@ -9,7 +9,7 @@
 
 #import "PFTwitterAuthenticationProvider.h"
 
-#import <Bolts/BFTask.h>
+#import <../../../Bolts/BFTask.h>
 
 #import <Parse/PFConstants.h>
 

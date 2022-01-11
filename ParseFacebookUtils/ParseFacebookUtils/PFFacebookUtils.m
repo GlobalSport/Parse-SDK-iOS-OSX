@@ -9,7 +9,7 @@
 
 #import "PFFacebookUtils.h"
 
-#import <Bolts/BFExecutor.h>
+#import <../../../Bolts/BFExecutor.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <Parse/Parse.h>
 

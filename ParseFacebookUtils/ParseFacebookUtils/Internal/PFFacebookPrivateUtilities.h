@@ -10,8 +10,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <Bolts/BFExecutor.h>
-#import <Bolts/BFTask.h>
+#import <../../../Bolts/BFExecutor.h>
+#import <../../../Bolts/BFTask.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 #import <Parse/PFConstants.h>

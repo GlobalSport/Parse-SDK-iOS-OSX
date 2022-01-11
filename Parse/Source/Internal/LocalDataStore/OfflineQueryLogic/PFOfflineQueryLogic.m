@@ -10,8 +10,8 @@
 #import "PFOfflineQueryLogic.h"
 
 
-#import <Bolts/BFTask.h>
-#import <Bolts/BFExecutor.h>
+#import <../../../Bolts/BFTask.h>
+#import <../../../Bolts/BFExecutor.h>
 
 
 #import "PFACL.h"

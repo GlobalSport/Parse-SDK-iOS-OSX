@@ -13,8 +13,8 @@
 #import "PFQuery+Deprecated.h"
 
 
-#import <Bolts/BFCancellationTokenSource.h>
-#import <Bolts/BFTask.h>
+#import <../../../Bolts/BFCancellationTokenSource.h>
+#import <../../../Bolts/BFTask.h>
 
 
 #import "../Internal/BFTask+Private.h"

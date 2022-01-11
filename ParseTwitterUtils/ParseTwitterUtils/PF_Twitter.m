@@ -14,8 +14,8 @@
 #import <Social/Social.h>
 #import <Twitter/Twitter.h>
 
-#import <Bolts/BFExecutor.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFExecutor.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 #import <Parse/PFConstants.h>
 

@@ -10,7 +10,7 @@
 #import "PFQueryController.h"
 
 
-#import <Bolts/BFCancellationToken.h>
+#import <../../../Bolts/BFCancellationToken.h>
 
 
 #import "../../BFTask+Private.h"

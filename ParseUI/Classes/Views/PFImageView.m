@@ -21,7 +21,7 @@
 
 #import "PFImageView.h"
 
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 #import <Parse/PFFileObject.h>
 

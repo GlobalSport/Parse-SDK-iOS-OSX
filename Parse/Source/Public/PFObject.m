@@ -18,7 +18,7 @@
 #import <objc/runtime.h>
 
 
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 
 #import "../Internal/BFTask+Private.h"

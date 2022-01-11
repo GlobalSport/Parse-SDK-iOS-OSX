@@ -32,15 +32,15 @@
 
 #else
 
-#import <Bolts/BFAppLink.h>
-#import <Bolts/BFAppLinkNavigation.h>
-#import <Bolts/BFAppLinkResolving.h>
-#import <Bolts/BFAppLinkReturnToRefererController.h>
-#import <Bolts/BFAppLinkReturnToRefererView.h>
-#import <Bolts/BFAppLinkTarget.h>
-#import <Bolts/BFMeasurementEvent.h>
-#import <Bolts/BFURL.h>
-#import <Bolts/BFWebViewAppLinkResolver.h>
+#import <../../../Bolts/BFAppLink.h>
+#import <../../../Bolts/BFAppLinkNavigation.h>
+#import <../../../Bolts/BFAppLinkResolving.h>
+#import <../../../Bolts/BFAppLinkReturnToRefererController.h>
+#import <../../../Bolts/BFAppLinkReturnToRefererView.h>
+#import <../../../Bolts/BFAppLinkTarget.h>
+#import <../../../Bolts/BFMeasurementEvent.h>
+#import <../../../Bolts/BFURL.h>
+#import <../../../Bolts/BFWebViewAppLinkResolver.h>
 
 #endif
 

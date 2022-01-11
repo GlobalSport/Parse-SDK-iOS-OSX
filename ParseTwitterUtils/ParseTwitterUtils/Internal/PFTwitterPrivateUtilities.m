@@ -9,7 +9,7 @@
 
 #import "PFTwitterPrivateUtilities.h"
 
-#import <Bolts/BFExecutor.h>
+#import <../../../Bolts/BFExecutor.h>
 
 @implementation PFTwitterPrivateUtilities
 

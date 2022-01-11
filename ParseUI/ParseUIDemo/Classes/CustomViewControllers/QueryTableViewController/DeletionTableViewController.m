@@ -21,7 +21,7 @@
 
 #import "DeletionTableViewController.h"
 
-#import <Bolts/BFTask.h>
+#import <../../../Bolts/BFTask.h>
 
 #import <Parse/PFObject.h>
 

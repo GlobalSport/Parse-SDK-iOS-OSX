@@ -9,8 +9,8 @@
 
 #import "PFFacebookDeviceAuthenticationProvider.h"
 
-#import <Bolts/BFExecutor.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFExecutor.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 #import <FBSDKCoreKit/FBSDKApplicationDelegate.h>
 #import <FBSDKCoreKit/FBSDKAccessToken.h>

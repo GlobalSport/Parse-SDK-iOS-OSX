@@ -9,8 +9,8 @@
 
 #import "PFTwitterUtils.h"
 
-#import <Bolts/BFExecutor.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFExecutor.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 #import <Parse/Parse.h>
 

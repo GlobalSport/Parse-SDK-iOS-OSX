@@ -10,8 +10,8 @@
 #import "PFSQLiteDatabaseController.h"
 
 
-#import <Bolts/BFTask.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFTask.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 
 #import "../../PFAssert.h"

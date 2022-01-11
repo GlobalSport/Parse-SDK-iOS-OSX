@@ -12,7 +12,7 @@
 #import <StoreKit/StoreKit.h>
 
 
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 
 #import "../../BFTask+Private.h"

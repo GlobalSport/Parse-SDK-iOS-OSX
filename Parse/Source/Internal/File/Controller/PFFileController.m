@@ -10,8 +10,8 @@
 #import "PFFileController.h"
 
 
-#import <Bolts/BFCancellationToken.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFCancellationToken.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 
 #import "../../BFTask+Private.h"

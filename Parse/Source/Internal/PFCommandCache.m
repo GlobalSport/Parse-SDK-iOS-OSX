@@ -13,8 +13,8 @@
 #include <sys/xattr.h>
 
 
-#import <Bolts/BFTask.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFTask.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 
 #import "BFTask+Private.h"

@@ -10,7 +10,7 @@
 #import "PFOfflineStore.h"
 
 
-#import <Bolts/BFTaskCompletionSource.h>
+#import <../../../Bolts/BFTaskCompletionSource.h>
 
 
 
