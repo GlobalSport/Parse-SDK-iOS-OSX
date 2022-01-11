@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 
 
-#import <../../Bolts/BFTask.h>
+#import <../Bolts/BFTask.h>
 
 
 #import "PFObject.h"

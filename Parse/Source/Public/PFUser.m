@@ -13,8 +13,8 @@
 #import "PFObject+Synchronous.h"
 
 
-#import <../../Bolts/BFExecutor.h>
-#import <../../Bolts/BFTaskCompletionSource.h>
+#import <../Bolts/BFExecutor.h>
+#import <../Bolts/BFTaskCompletionSource.h>
 
 
 #import "../Internal/BFTask+Private.h"
