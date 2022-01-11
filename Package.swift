@@ -24,7 +24,7 @@ let package = Package(
     targets: [
         .target(
             name: "Parse",
-            dependencies: [.product(name: "Bolts", package: "Bolts")],
+            dependencies: [],
             path: "Parse/Source",
             exclude: ["Info.plist"],
             resources: [.process("Bolts")],
