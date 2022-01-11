@@ -25,20 +25,6 @@ let package = Package(
         .target(
             name: "Parse",
             dependencies: [.target(name:"Bolt")],
-            path: "Parse/Source",
-            exclude: ["Info.plist"],
-            publicHeadersPath: "Public"
-        ),
-        .target(
-            name: "Bolts",
-            dependencies: [.target(name: "Bolts-iOS")],
-            exclude: ["Info.plist"],
-            publicHeadersPath: ""
-        ),
-        .target(
-            name: "Bolts-iOS",
-            dependencies: [.target(name: "Bolts-iOS")],
-            publicHeadersPath: ""
-        )
+            exclude: ["Info.plist"]),
     ]
 )
