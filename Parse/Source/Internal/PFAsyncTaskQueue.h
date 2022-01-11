@@ -9,11 +9,9 @@
 
 #import <Foundation/Foundation.h>
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFTask.h>
-#endif
+
 
 NS_ASSUME_NONNULL_BEGIN
 

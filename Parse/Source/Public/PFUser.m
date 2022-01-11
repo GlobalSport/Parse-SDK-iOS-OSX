@@ -12,12 +12,10 @@
 #import "PFUser+Synchronous.h"
 #import "PFObject+Synchronous.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFExecutor.h>
 #import <Bolts/BFTaskCompletionSource.h>
-#endif
+
 
 #import "../Internal/BFTask+Private.h"
 #import "../Internal/ACL/PFACLPrivate.h"

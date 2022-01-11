@@ -9,12 +9,10 @@
 
 #import <Foundation/Foundation.h>
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFExecutor.h>
 #import <Bolts/BFTask.h>
-#endif
+
 
 #import "PFInternalUtils.h"
 

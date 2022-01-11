@@ -9,13 +9,10 @@
 
 #import "PFURLSessionJSONDataTaskDelegate.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
 #import <Bolts/BFCancellationToken.h>
 #import <Bolts/BFTask.h>
 #import <Bolts/BFTaskCompletionSource.h>
-#endif
+
 
 #import "../../../../../PFCommandResult.h"
 #import "PFConstants.h"

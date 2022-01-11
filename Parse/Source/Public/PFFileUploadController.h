@@ -8,11 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFTask.h>
-#endif
+
 
 /**
  A policy interface for overriding the default upload behavior of uploading a PFFileObject

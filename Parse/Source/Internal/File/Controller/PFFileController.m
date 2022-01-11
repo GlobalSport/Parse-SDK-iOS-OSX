@@ -9,12 +9,10 @@
 
 #import "PFFileController.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFCancellationToken.h>
 #import <Bolts/BFTaskCompletionSource.h>
-#endif
+
 
 #import "../../BFTask+Private.h"
 #import "../FileDataStream/PFFileDataStream.h"

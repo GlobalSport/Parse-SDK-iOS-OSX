@@ -10,11 +10,9 @@
 #import "PFFileObject.h"
 #import "../Internal/File/PFFileObject_Private.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFCancellationTokenSource.h>
-#endif
+
 
 #import "../Internal/BFTask+Private.h"
 #import "../Internal/PFAssert.h"

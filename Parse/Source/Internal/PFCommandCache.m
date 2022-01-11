@@ -12,12 +12,10 @@
 #include <mach/mach_time.h>
 #include <sys/xattr.h>
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFTask.h>
 #import <Bolts/BFTaskCompletionSource.h>
-#endif
+
 
 #import "BFTask+Private.h"
 #import "PFAssert.h"

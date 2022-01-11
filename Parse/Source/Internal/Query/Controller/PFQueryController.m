@@ -9,11 +9,9 @@
 
 #import "PFQueryController.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFCancellationToken.h>
-#endif
+
 
 #import "../../BFTask+Private.h"
 #import "../../PFAssert.h"

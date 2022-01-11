@@ -9,11 +9,9 @@
 
 #import "PFCachedQueryController.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFTask.h>
-#endif
+
 
 #import "../../PFAssert.h"
 #import "../../PFCommandResult.h"

@@ -10,12 +10,9 @@
 #import "PFURLSessionDataTaskDelegate.h"
 #import "PFURLSessionDataTaskDelegate_Private.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
 #import <Bolts/BFTaskCompletionSource.h>
 #import <Bolts/BFCancellationToken.h>
-#endif
+
 
 #import "../../../../../PFAssert.h"
 #import "../../../../../PFMacros.h"

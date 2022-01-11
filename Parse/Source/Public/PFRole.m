@@ -9,11 +9,8 @@
 
 #import "PFRole.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
 #import <Bolts/BFTask.h>
-#endif
+
 
 #import "../Internal/PFAssert.h"
 #import "PFObject+Subclass.h"

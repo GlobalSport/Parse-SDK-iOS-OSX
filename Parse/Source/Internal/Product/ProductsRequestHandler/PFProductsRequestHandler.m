@@ -9,12 +9,10 @@
 
 #import "PFProductsRequestHandler.h"
 
-#if SWIFT_PACKAGE
-@import Bolts;
-#else
+
 #import <Bolts/BFTask.h>
 #import <Bolts/BFTaskCompletionSource.h>
-#endif
+
 
 #import <TargetConditionals.h>
 #if !TARGET_OS_OSX && !TARGET_OS_WATCH
