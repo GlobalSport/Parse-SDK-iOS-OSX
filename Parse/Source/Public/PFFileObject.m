@@ -11,7 +11,7 @@
 #import "../Internal/File/PFFileObject_Private.h"
 
 
-#import <../../../Bolts/BFCancellationTokenSource.h>
+#import <../../Bolts/BFCancellationTokenSource.h>
 
 
 #import "../Internal/BFTask+Private.h"
