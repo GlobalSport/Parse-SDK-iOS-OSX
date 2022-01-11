@@ -12,7 +12,8 @@
 #if SWIFT_PACKAGE
 @import Bolts;
 #else
-#import <Bolts/Bolts.h>
+#import <Bolts.h>
+#import <Bolts/Bolts/Bolts.h>
 #endif
 
 #import "../../BFTask+Private.h"

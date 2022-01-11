@@ -12,7 +12,7 @@
 #if SWIFT_PACKAGE
 @import Bolts;
 #else
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #endif
 
 NS_ASSUME_NONNULL_BEGIN

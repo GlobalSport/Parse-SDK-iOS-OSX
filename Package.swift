@@ -29,7 +29,7 @@ let package = Package(
     targets: [
         .target(
             name: "Parse",
-            dependencies: [.product(name: "Bolts", package: "Bolts")],
+            dependencies: ["Bolts"],
             path: "Parse/Source",
             exclude: ["Info.plist"],
             publicHeadersPath: "Public"

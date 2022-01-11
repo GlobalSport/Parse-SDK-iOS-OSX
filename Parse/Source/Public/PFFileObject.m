@@ -13,6 +13,7 @@
 #if SWIFT_PACKAGE
 @import Bolts;
 #else
+@import Bolts.BFCancellationTokenSource;
 #import <Bolts/BFCancellationTokenSource.h>
 #endif
 

@@ -16,7 +16,7 @@
 @import Bolts;
 #else
 #import <Bolts/BFCancellationTokenSource.h>
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #endif
 
 #import "../Internal/BFTask+Private.h"

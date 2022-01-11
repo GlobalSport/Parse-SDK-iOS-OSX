@@ -12,7 +12,7 @@
 #if SWIFT_PACKAGE
 @import Bolts;
 #else
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #import <Bolts/BFExecutor.h>
 #endif
 

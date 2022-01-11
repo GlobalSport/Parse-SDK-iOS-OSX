@@ -21,7 +21,7 @@
 
 #import "PFQueryCollectionViewController.h"
 
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #import <Bolts/BFTaskCompletionSource.h>
 
 #import <Parse/Parse.h>

@@ -10,7 +10,7 @@
 #import "PFFacebookMobileAuthenticationProvider.h"
 #import "PFFacebookMobileAuthenticationProvider_Private.h"
 
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #import <Bolts/BFTaskCompletionSource.h>
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>

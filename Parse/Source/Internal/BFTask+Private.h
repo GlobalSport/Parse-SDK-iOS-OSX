@@ -13,7 +13,7 @@
 @import Bolts;
 #else
 #import <Bolts/BFExecutor.h>
-#import <Bolts/BFTask.h>
+#import <Bolts/Bolts/BFTask.h>
 #endif
 
 #import "PFInternalUtils.h"

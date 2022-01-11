@@ -14,7 +14,7 @@
 #if SWIFT_PACKAGE
 @import Bolts;
 #else
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #endif
 
 #import "PFDecoder.h"

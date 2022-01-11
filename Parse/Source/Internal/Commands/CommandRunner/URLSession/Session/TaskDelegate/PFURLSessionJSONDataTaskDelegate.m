@@ -13,7 +13,7 @@
 @import Bolts;
 #else
 #import <Bolts/BFCancellationToken.h>
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 #import <Bolts/BFTaskCompletionSource.h>
 #endif
 

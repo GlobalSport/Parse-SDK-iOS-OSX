@@ -21,7 +21,7 @@
 
 #import "DeletionCollectionViewController.h"
 
-#import <Bolts/BFTask.h>
+@import Bolts.BFTask;
 
 #import <Parse/PFObject.h>
 
