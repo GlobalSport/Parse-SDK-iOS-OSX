@@ -9,7 +9,7 @@
 
 #import <OCMock/OCMock.h>
 
-@import Bolts.BFTask;
+#import <Bolts/BFTask.h>
 
 #import "OCMock+Parse.h"
 #import "PFCommandResult.h"

@@ -9,7 +9,7 @@
 
 #import "PFTestCase.h"
 
-@import Bolts.BFTask;
+#import <Bolts/BFTask.h>
 
 #import "PFTestSwizzlingUtilities.h"
 

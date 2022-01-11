@@ -11,8 +11,8 @@
 
 #import <OCMock/OCMock.h>
 
-@import Bolts.BFExecutor;
-@import Bolts.BFTask;
+#import <Bolts/BFExecutor.h>
+#import <Bolts/BFTask.h>
 
 #import "PFCommandResult.h"
 #import "PFCommandRunning.h"
